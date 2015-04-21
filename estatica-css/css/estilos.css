@@ -1,0 +1,18 @@
+
+#corpo1 {
+    background-image: url("../img/background1.png");
+    background-repeat:repeat-x;
+}
+
+#corpo2 {
+    background-image: url("../img/background2.png");
+    background-repeat:repeat;
+    background-color: gray;
+}
+
+#corpo3 {
+    background-image: url("../img/background3.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-color: dimgray;
+}
