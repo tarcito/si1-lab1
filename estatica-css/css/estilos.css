@@ -1,12 +1,12 @@
 
 #corpo1 {
     background-image: url("../img/background1.png");
-    background-repeat:repeat-x;
+    background-repeat: repeat-x;
 }
 
 #corpo2 {
     background-image: url("../img/background2.png");
-    background-repeat:repeat;
+    background-repeat: repeat;
     background-color: gray;
 }
 
@@ -15,4 +15,85 @@
     background-repeat: repeat-y;
     background-position: center;
     background-color: dimgray;
+}
+
+body {
+    font-family: tahoma, verdana, arial, helvetica, sans-serif;
+    font-size: 12px;
+}
+
+form {
+    text-align: center;
+    border: 2px solid #444444;
+    width: 200px;
+    height: 150px;
+    margin: -120px 0 0 -120px;
+    left: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: -1px;
+    color: sienna;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 25px;
+    color: sienna;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h4 {
+    font-size: large;
+    color: sienna;
+    font-weight: lighter;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+#requisito {
+    color: red;
+}
+
+#requisito:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+h2:hover {
+    letter-spacing: -1px;
+    color: blueviolet;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    font-size: 20px;
+}
+
+a:hover {
+    text-align: center;
+    color: #444444;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+#centralizado {
+    text-align: center;
 }
