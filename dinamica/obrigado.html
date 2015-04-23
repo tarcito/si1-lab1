@@ -55,14 +55,36 @@
     </div>
 </nav>
 
-<div class="container">
+<div class="container" id="div-items">
 
     <div class="starter-template">
         <h1>Cadastro realizado com sucesso! Obrigado.</h1>
 
         <p class="lead">Bem vindo à sistemas de informação I.<br></p>
     </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h3 align="center">Temas a Aprender:</h3>
 
+            <div class="sidebar-module" id="div-itens-aprender">
+                <ol type="1" class="list-unstyled" id="itens-aprender">
+                </ol>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3 align="center">Temas Aprendidos:</h3>
+
+            <div class="sidebar-module" id="div-itens-aprendidos">
+                <ol type="1" class="list-unstyled" id="itens-aprendidos">
+                </ol>
+            </div>
+        </div>
+        <div class="col-md-4" id="div-input">
+                <h3 align="center">Quais Temas Deseja Aprender?</h3>
+                <input type="text" class="form-inline form-control" id="entrada-items" placeholder="Tema A Aprender" class="search">
+                <br>
+        </div>
+    </div>
 </div>
 <!-- /.container -->
 
@@ -72,6 +94,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
 </body>

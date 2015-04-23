@@ -13,42 +13,83 @@
     padding-top: 50px;
 }
 
-.form-signin {
-    max-width: 330px;
-    padding: 15px;
-    margin: 0 auto;
-}
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
-    margin-bottom: 10px;
-}
-.form-signin .checkbox {
-    font-weight: normal;
-}
-.form-signin .form-control {
-    position: relative;
-    height: auto;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 10px;
-    font-size: 16px;
-}
-.form-signin .form-control:focus {
-    z-index: 2;
-}
-.form-signin input[type="email"] {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-.form-signin input[type="password"] {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+#div-items{
+    background-color: gainsboro;
+
 }
 
-.starter-template {
-    padding: 40px 15px;
-    text-align: center;
+#div-input{
+    background-color: #d8dfea;
+}
+
+#div-itens-aprendidos{
+     position: right;
+     margin-left: 30px;
+     margin-top: 20px;
+     background-color: #33CC66;
+ }
+
+ #div-itens-aprender{
+      position: right;
+      padding-left: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+     background-color: #C8C8C8;
+ }
+
+ .form-signin {
+     max-width: 330px;
+     padding: 15px;
+     margin: 0 auto;
+ }
+ .form-signin .form-signin-heading,
+ .form-signin .checkbox {
+     margin-bottom: 10px;
+ }
+ .form-signin .checkbox {
+     font-weight: normal;
+ }
+ .form-signin .form-control {
+     position: relative;
+     height: auto;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+     padding: 10px;
+     font-size: 16px;
+ }
+ .form-signin .form-control:focus {
+     z-index: 2;
+ }
+ .form-signin input[type="email"] {
+     margin-bottom: -1px;
+     border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+ }
+ .form-signin input[type="password"] {
+     margin-bottom: 10px;
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+ }
+
+ .starter-template {
+     padding: 40px 15px;
+     text-align: center;
+ }
+
+
+ #itens-aprender{
+     position: right;
+     margin-right: 40px;
+
+}
+
+#itens-aprendidos{
+    position: right;
+    padding-left: 20px;
+    margin-right: 40px;
+}
+
+li{
+    margin-top: 5px;
 }
